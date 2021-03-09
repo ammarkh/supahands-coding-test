@@ -32,7 +32,7 @@
       this.fillMapNodes();
   }
 
-  //return hunting map as serlizer list 
+  //return hunting map as serailize list 
   getMapList() {
       return Object.values(this.map).flatMap((n) => n);
   }
